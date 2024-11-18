@@ -4,6 +4,7 @@ Aplicación web para la gestión del estado de cuenta de tarjetas de crédito, c
 Este proyecto es una solución completa que permite gestionar el estado de cuenta de tarjetas de crédito mediante una REST API desarrollada en ASP.NET Core y una interfaz web basada en Razor Pages y MVC. La aplicación interactúa con una base de datos SQL Server mediante procesos almacenados, brindando funcionalidades como la visualización de transacciones, cálculos de cuotas y exportación de datos(PDF y Excel).
 
 Características Principales:
+
 	  Visualización del estado de cuenta con detalles de movimientos mensuales.
 	  Cálculo de cuotas mínimas, totales y montos de contado con intereses.
 	  Registro y gestión de compras y pagos mediante formularios interactivos.
