@@ -20,18 +20,20 @@ Características Principales:
 
 Cómo Usarlo:
 
-*Primer paso he importante: 
-	-La base de datos se crea desde el proyecto EstadoCuenta.Api por lo cual en el archivo appsettings.json
+* Primer paso he importante:
+   
+	- La base de datos se crea desde el proyecto EstadoCuenta.Api por lo cual en el archivo appsettings.json
 	podras encontrar la  conexion a la base, puedes modificarle segun tu conesion con SQLSERVER.
-	-En en archivo program.cs encontraras comentada las lineas 60-66 descomentalas, luego abre la consola
+	- En en archivo program.cs encontraras comentada las lineas 60-66 descomentalas, luego abre la consola
 	de administrador de paquejeste y ejecuta "Add-Migration DbEstado" seguido de "Update-Database" 
 	luego ejecuta el proyecto, y tendras las tablas ya generadas en la base de datos, despues de eso puedes volver
 	a comentar las lineas 60-66.
 	
-* Segundo paso
-  Ejecuta la API y el cliente web para explorar el estado de cuenta de tarjetas de crédito.
-  Al iniciar veras una pantalla donde te hara elegir entre crear un nuevo usuario o ver los existentes
-  luego continua el flujo en ver los detlles de las tarjetas.
+* Segundo paso:
+  
+  	- Ejecuta la API y el cliente web para explorar el estado de cuenta de tarjetas de crédito.
+  	Al iniciar veras una pantalla donde te hara elegir entre crear un nuevo usuario o ver los existentes
+  	luego continua el flujo en ver los detlles de las tarjetas.
 
 Prueba los endpoints con la colección de Postman incluida o directamente al ejecutar el proyecto EstadoCuenta.Api en el Swagger.
 Personaliza configuraciones como tasas de interés y porcentajes en la clase TarjetaVariablesDto.
