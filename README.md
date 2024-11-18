@@ -18,7 +18,7 @@ Características Principales:
   Herramientas: AutoMapper, FluentValidation, Swagger, Healthcheck.
   Modelos de datos: DTO para API y View Model para el MVC
 
-Cómo Usarlo:
+Modo de Uso:
 
 * Primer paso he importante:
    
